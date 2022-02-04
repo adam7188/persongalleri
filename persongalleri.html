@@ -35,7 +35,6 @@
         <h2 class="efternavn"></h2>
         <p class="titel"></p>
         <p class="fødselsdag"></p>
-        <p class="hobby"></p>
         </article>  
     </template>
     <script>
@@ -73,7 +72,6 @@
                 klon.querySelector(".efternavn").textContent = person.efternavn;
                 klon.querySelector(".titel").textContent = person.titel;
                 klon.querySelector(".fødselsdag").textContent = person.fødselsdag;
-                klon.querySelector(".hobby").textContent = person.hobby;
                 section.appendChild(klon);
             })
         }
